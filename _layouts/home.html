@@ -3,11 +3,8 @@
 
 {%- include header.html -%}
 
-
-
-
 <style>
-  header {
+  .homeimage {
     background-image: url("{{ "/assets/images/transit_cover.jpg" | relative_url }}");
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,26 +13,23 @@
 </style>
 
 <body>
-  <header class="bg-primary">
-    <div class="container h-100">
-      <div class="row h-100">
-        <div class="col-12">
-          <div class="text-center m-0 vh-100 d-flex flex-column justify-content-center text-dark">
-            <h1 class="display-4">M. Tech. in Computing and Mathematics</h1>
-          </div>
+  {%- include navbar.html -%}
+  <div class="container-fluid homeimage h-100">
+    <div class="row h-100" style="margin-top:-100px;">
+      <div class="col-12">
+        <div class="text-center m-0 vh-100 d-flex flex-column justify-content-center text-dark">
+          <h1 class="display-4">M. Tech. in Computing and Mathematics</h1>
         </div>
       </div>
     </div>
-  </header>
-  {%- include navbar.html -%}
-  <main>
+  </div>
 
 
-  </main>
 </body>
 <script>
   $(".nav li").removeClass("active");
   $("#homeNav").addClass("active");
 </script>
 {%- include footer.html -%}
+
 </html>
