@@ -1,5 +1,5 @@
 ---
 layout: faculty
 title: Core Faculty
-permalink: /faculty
+permalink: /mcam/faculty
 ---
