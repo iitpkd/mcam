@@ -1,5 +1,5 @@
 ---
 layout: eligibility
 title: Eligibility
-permalink: /mcam/eligibility
+permalink: /eligibility
 ---
