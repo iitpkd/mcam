@@ -1,2 +1,2 @@
 # mcam
-A website for M. Tech in Computing and Mathematics at IIT Palakkad
+A website for M. Tech in Computing and Mathematics at IIT Palakkad.
